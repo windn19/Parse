@@ -7,6 +7,7 @@
 	pip install -r requirements.txt 
 ## Использование
 Если вы используете  Linux и модуль Scrapy, который установлен как модуль python3.7(т.е запускается как: python3.7 -m scrapy shell 'www.google.com'):
+
 	python3.7 newss.py
 Модуль запустит поочередно четыре паука(auto_ru.py, auto_uk.py, auto_fr.py, auto_de.py) на четыре сайта, соберет информацию и запустит обработчик(render.py) шаблона(templates/index.html), который создаст новый файл(index.html), отображающий собранную информацию. При нажатии на Ctr+C автоматически откроет файл в привязанном приложении.
 Иначе:
