@@ -7,7 +7,8 @@ In case of conflict with python2, use pip3. Install the required modules:
 pip install -r requirements.txt
 ## Use
 If you are using Linux and a Scrapy module that is installed as python3.7 (i.e. run as: python3.7 -m scrapy shell 'www.google.com'):
-python3.7 newss.py
+
+    python3.7 newss.py
 The module will run four spiders (auto_en.py, auto_en.py, auto_fr.py, auto_de.py) in four sites, collect information and run a template render.py (templates / index.html), which will create a new file ( index.html) that displays the information collected. Clicking on Ctr + C will automatically open the file in the linked application.
 Otherwise:
 ```
